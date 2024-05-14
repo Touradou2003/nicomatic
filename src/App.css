@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* styles.css */
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #333; /* Noir */
+}
+
+.App-header h1 {
+  color: #fff; /* Blanc */
+}
+
+.weather-section,
+.form-section {
+  background-color: rgba(0, 128, 0, 0.5); /* Vert avec 50% de transparence */
+}
+
+.weather-item {
+  background-color: rgba(255, 255, 255, 0.1); /* Blanc avec 10% de transparence */
+}
+
+.temperature {
+  background-color: rgba(255, 69, 0, 0.3); /* Rouge clair */
+}
+
+.main {
+  background-color: rgba(255, 165, 0, 0.3); /* Orange clair */
+}
+
+.description {
+  background-color: rgba(173, 216, 230, 0.3); /* Bleu clair */
+}
+
+.sunrise {
+  background-color: rgba(255, 215, 0, 0.3); /* Jaune clair */
+}
+
+.sunset {
+  background-color: rgba(255, 140, 0, 0.3); /* Orange foncé clair */
+}
+
+.form-header {
+  background-color: #333; /* Noir */
+}
+
+.form-header h2 {
+  color: #fff; /* Blanc */
+}
+
+button {
+  background-color: #007bff; /* Bleu */
+  color: #fff; /* Blanc */
+}
+
+button:hover {
+  background-color: #0056b3; /* Bleu plus foncé */
+}
+
+.cold {
+  background-color: rgba(0, 0, 255, 0.5); /* Bleu - 50% de transparence */
+}
+
+.cool {
+  background-color: rgba(0, 128, 255, 0.5); /* Bleu clair - 50% de transparence */
+}
+
+.warm {
+  background-color: rgba(255, 165, 0, 0.5); /* Orange - 50% de transparence */
+}
+
+.hot {
+  background-color: rgba(255, 69, 0, 0.3); /* Rouge - 30% de transparence */
 }
 
 .App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  color: #61dafb; /* Bleu clair */
 }
