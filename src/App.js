@@ -27,6 +27,9 @@ function App() {
             </header>
 
             
+            <h1>
+                BIENVENU CHEZ GENI'S FACTORY 
+            </h1>
 
             
             <section id="a propos">
