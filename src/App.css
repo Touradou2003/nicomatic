@@ -1,75 +1,53 @@
-/* styles.css */
-
-.App-header {
-  background-color: #333; /* Noir */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.App-header h1 {
-  color: #fff; /* Blanc */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
 }
 
-.weather-section,
-.form-section {
-  background-color: rgba(0, 128, 0, 0.5); /* Vert avec 50% de transparence */
+nav ul {
+  list-style: none;
+  padding: 0;
 }
 
-.weather-item {
-  background-color: rgba(255, 255, 255, 0.1); /* Blanc avec 10% de transparence */
+nav ul li {
+  display: inline;
+  margin-right: 20px;
 }
 
-.temperature {
-  background-color: rgba(255, 69, 0, 0.3); /* Rouge clair */
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
 }
 
-.main {
-  background-color: rgba(255, 165, 0, 0.3); /* Orange clair */
+nav ul ul {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  padding: 0;
 }
 
-.description {
-  background-color: rgba(173, 216, 230, 0.3); /* Bleu clair */
+nav ul ul li {
+  display: block;
+  margin-right: 0;
 }
 
-.sunrise {
-  background-color: rgba(255, 215, 0, 0.3); /* Jaune clair */
+nav ul li:hover ul {
+  display: block;
 }
 
-.sunset {
-  background-color: rgba(255, 140, 0, 0.3); /* Orange foncé clair */
+section {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
 }
 
-.form-header {
-  background-color: #333; /* Noir */
-}
-
-.form-header h2 {
-  color: #fff; /* Blanc */
-}
-
-button {
-  background-color: #007bff; /* Bleu */
-  color: #fff; /* Blanc */
-}
-
-button:hover {
-  background-color: #0056b3; /* Bleu plus foncé */
-}
-
-.cold {
-  background-color: rgba(0, 0, 255, 0.5); /* Bleu - 50% de transparence */
-}
-
-.cool {
-  background-color: rgba(0, 128, 255, 0.5); /* Bleu clair - 50% de transparence */
-}
-
-.warm {
-  background-color: rgba(255, 165, 0, 0.5); /* Orange - 50% de transparence */
-}
-
-.hot {
-  background-color: rgba(255, 69, 0, 0.3); /* Rouge - 30% de transparence */
-}
-
-.App-link {
-  color: #61dafb; /* Bleu clair */
+section h2 {
+  margin-top: 0;
 }
