@@ -4,11 +4,11 @@ import React from 'react';
 function App() {
     return (
         <div>
-            <header>
+            <header id="header">
                 <nav>
                     <ul>
                         <li>
-                            <a href="#accueil">Accueil</a>
+                            <a href="#accueil" id="accueil">Accueil</a>
                             <ul>
                                 <li><a href="#à propos">A propos</a></li>
                                 <li><a href="#Activités">Activités</a></li>
@@ -17,19 +17,18 @@ function App() {
                                 <li><a href="#Qui sommes-nous">Qui sommes-nous</a></li>
                             </ul>
                         </li>
-                        <li><a href="#à propos">A propos</a></li>
-                                <li><a href="#Activités">Activités</a></li>
-                                <li><a href="#Partenaires">Partenaires</a></li>
-                                <li><a href="#Réalisations">Réalisations</a></li>
-                                <li><a href="#Qui sommes-nous">Qui sommes-nous</a></li>
+                                <li>Factory</li>
+                                <li>Studio</li>
+                                <li>Consulting</li>
+                                <li>Campus</li>
+                                <li id="nous">Qui sommes-nous</li>
+
                     </ul>
                 </nav>
             </header>
 
             
-            <h1>
-                BIENVENU CHEZ GENI'S FACTORY 
-            </h1>
+        
 
             
             <section id="a propos">

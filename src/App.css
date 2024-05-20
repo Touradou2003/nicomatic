@@ -8,6 +8,7 @@ header {
   background-color: #333;
   color: #fff;
   padding: 10px 0;
+  text-align: center;
 }
 
 nav ul {
@@ -51,3 +52,188 @@ section {
 section h2 {
   margin-top: 0;
 }
+
+
+/* Header */
+
+position: relative;
+width: 1280px;
+height: 100px;
+
+background: #FFFFFF;
+
+
+/* Frame 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 206px;
+
+position: absolute;
+width: 1189px;
+height: 46px;
+left: calc(50% - 1189px/2 - 0.5px);
+top: calc(50% - 46px/2);
+
+
+
+/* G-NI’S */
+
+width: 76px;
+height: 29px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+color: #119DD9;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 14px;
+gap: 30px;
+
+width: 475px;
+height: 35px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Accueil */
+
+width: 60px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+
+color: #119DD9;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Factory */
+
+width: 61px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+
+color: #2F353B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Studio */
+
+width: 52px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+
+color: #2F353B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Consulting */
+
+width: 88px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+
+color: #2F353B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Campus */
+
+width: 66px;
+height: 19px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+
+color: #2F353B;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Contact */
+
+width: 226px;
+height: 46px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+
+
+
