@@ -41,7 +41,7 @@ nav ul li a {
   font-family: 'Inter';
   font-size: 20px;
   font-weight: 900;
-  background: #fff;
+  background: rgba(232, 242, 250, 1);
   color: #119dd9;
   border: 3px solid #119dd9;
   border-radius: 20px;

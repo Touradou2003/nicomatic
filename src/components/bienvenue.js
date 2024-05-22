@@ -1,4 +1,4 @@
-import banner from "../assets/banner.png"
+import welcome from "../assets/welcome.png"
 import "../styles/bienvenue.css"
 
 export default function Bienvenue(){
@@ -12,7 +12,7 @@ export default function Bienvenue(){
                     <button id="contactus">Contactez-nous</button>
                 </div>
                 <div class="right">
-                    <img src={banner} alt="banner" id="banner" />
+                    <img src={welcome} alt="banner" id="banner" />
                 </div>
             </section>
         </>

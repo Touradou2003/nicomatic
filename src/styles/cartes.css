@@ -1,0 +1,126 @@
+
+.aussi{
+display: flex;
+width: 321px;
+height: 44px;
+left: calc(50% - 321px/2 - 0.5px);
+top: 145px;
+
+font-family: 'extra-bold';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 44px;
+padding-left: 40%;
+padding-top: 5%;
+color: #2F353B;
+}
+
+
+#site1{
+background-color: rgba(255, 255, 255, 1);
+display: flex;
+width: 509px;
+height: 278px;
+left: 582px;
+top: 356px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+#site2{
+background-color: rgba(255, 255, 255, 1);
+display: flex;
+width: 509px;
+height: 278px;
+left: 582px;
+top: 356px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.site12{
+    display: flex;
+    flex-direction: row;
+    padding-left: 250px;
+    padding-right:10%;
+    justify-content: space-evenly;
+
+}
+
+#site3{
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    width: 509px;
+    height: 278px;
+    left: 582px;
+    top: 356px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#site4{
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    width: 509px;
+    height: 278px;
+    left: 582px;
+    top: 356px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.site34{
+    display: flex;
+    flex-direction: row;
+    padding-left: 250px;
+    padding-right:10%;
+    padding-top:2%;
+    justify-content: space-evenly;
+}
+
+#consulting{
+display: flex;
+width: 50px;
+height: 50px;
+left: 605px;
+top: 368px;
+
+
+}
+#factory{
+display: flex;
+width: 50px;
+height: 50px;
+left: 605px;
+top: 368px;
+
+
+}
+#studio{
+display: flex;
+width: 50px;
+height: 50px;
+left: 605px;
+top: 368px;
+
+
+}
+#campus{
+display: flex;
+width: 50px;
+height: 50px;
+left: 605px;
+top: 368px;
+}
+
+.titreConsulting{
+
+color: #119DD9;  
+}
+.titreFactory{
+    color: #119DD9;
+}
+.titreStudio{
+    color: #119DD9;
+}
+.titreCampus{
+    color: #119DD9;
+}
