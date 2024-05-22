@@ -1,11 +1,11 @@
-import logo from "../assets/logo.png"
+import vrailogo from "../assets/vrailogo.png"
 
 export default function Header(){
     return (
         <>
 
             <header id="header">
-                <img src={logo} alt="logo" id="logo"/>
+                <img src={vrailogo} alt="logo" id="logo"/>
                 <nav>
                     <ul>
                         <li>

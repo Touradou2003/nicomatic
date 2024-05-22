@@ -1,0 +1,36 @@
+#Ainsi{
+    display: flex;
+    align-items: center;
+}
+
+.ainsi{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    padding-top: 10%;
+    padding-right: 10%;
+
+
+}
+
+.titreAinsi{
+display: flex;
+width: 134px;
+height: 58px;
+left: 55px;
+top: 230px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+color: #2F353B;
+}
+
+.textAinsi{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+    padding-left: 10%;
+
+}
