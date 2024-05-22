@@ -1,0 +1,29 @@
+.titrepartenaire{
+    display: flex;
+    justify-content: start;
+    padding-right: 30%;
+    padding-left: 10%;
+    padding-top: 10%;
+    font-size: 30px;
+    font-family: 'extra-bold';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    color: #2F353B;
+}
+
+#para{
+    display: flex;
+    justify-content: start;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+#imgPartenaires{
+    display: flex;
+    justify-content: center;
+    padding-left: 12%;
+    padding-top: 4%;
+    width: 1100px;
+
+}
