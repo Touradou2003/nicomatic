@@ -2,10 +2,10 @@
     margin: 0;
     padding: 0;
     width: 100%;
+    position: relative;
 }
 
 #footer{
-    grid: 50%;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -17,3 +17,67 @@
     display: block;
     padding-top: 10%;
 }
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+form h2 {
+    text-align: center;
+    color: #333;
+}
+
+form label {
+    margin: 10px 0;
+    color: #666;
+
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+    
+    background-color: #0056b3;
+}
+
+.formContainer {
+    padding-top: 0%;
+    height: 500px;
+    background: #fff; /* Fond semi-transparent */ 
+    position: absolute;
+    width: 450px;
+    left: 1000px;
+    top: 150px;
+    bottom: 0;
+}
+
+.bouge{
+    align-items: center;
+    justify-content: start;
+    height: auto;
+    bottom: 200px;
+}
+
+
+    
+    
