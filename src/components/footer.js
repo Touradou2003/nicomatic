@@ -1,7 +1,5 @@
 import footer from "../assets/footer.png"
 import '../styles/footer.css'
-import Formulaire from "../components/formulaire"
-
 
 
 export default function Footer()
@@ -10,8 +8,13 @@ export default function Footer()
         <>
             <section id="footer">
                 <div class="imgFooter">
+                    <div>
                     <img class="img" src={footer} alt="footer" />
-                    <Formulaire />  
+                        </div>
+                        <div>
+
+                        </div>
+                      
                 </div>
 
             </section>
