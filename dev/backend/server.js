@@ -1,12 +1,19 @@
 const express = require('express');
 const formRoutes =require("./routes/formRoutes")
 const dotenv = require('dotenv');
+const cors = require("cors");
 
 
 
 dotenv.config();
 
 const app = express();
+app.use(
+    cors({
+        origin: "*",
+        methods: ["GET", "POST", "DELETE", "UPDATE", "PUT", "PATCH"],
+    })
+);
 const PORT = process.env.PORT || 5000;
 
 // Middleware pour analyser les requêtes JSON

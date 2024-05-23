@@ -3,10 +3,10 @@ const asyncHandler = require("express-async-handler");
 
 exports.form = async (req, res) => {
     // Récupération des données du formulaire de contact depuis le corps de la requête
-    const { firstName, lastName, address, phone, email, message } = req.body;
+    const { firstName, lastName, phone, email, message } = req.body;
 
     // Vérification si les données sont présentes
-    if (!firstName || !lastName || !address || !phone || !email || !message) {
+    if (!firstName || !lastName || !phone || !email || !message) {
         return res.status(400).json({ message: "Données du formulaire incomplètes." });
     }
 
@@ -14,23 +14,22 @@ exports.form = async (req, res) => {
     const transporter = nodemailer.createTransport({
         service: "Gmail",
         auth: {
-            user: "votre_email@gmail.com", // Ajoutez votre adresse e-mail Gmail
-            pass: "votre_mot_de_passe", // Ajoutez votre mot de passe Gmail
+            user: "contact@nicomaticsenegal.com", // Ajoutez votre adresse e-mail Gmail
+            pass: "zfvmtjairsirkqbp", // Ajoutez votre mot de passe Gmail
         },
     });
 
     // Options de l'e-mail
     const mailOptions = {
-        from: "votre_email@gmail.com", // Votre adresse e-mail
-        to: "destinataire@example.com", // Adresse e-mail du destinataire
+        from: "contact@nicomaticsenegal.com", // Votre adresse e-mail
+        to: "contact@nicomaticsenegal.com", // Adresse e-mail du destinataire
         cc: "", // CC, si nécessaire
         subject: "Formulaire de contact",
         html: `
             <div style="font-family: Arial, sans-serif; padding: 20px;">
-                <h1 style="color: #983716;">Nouveau message de contact :</h1>
+                <h1 style="color: #983716;">Nouveau message du formulaire du site :</h1>
                 <ul style="list-style-type: none; padding-left: 0;">
                     <li><strong>Nom complet:</strong> ${firstName} ${lastName}</li>
-                    <li><strong>Adresse:</strong> ${address}</li>
                     <li><strong>Téléphone:</strong> ${phone}</li>
                     <li><strong>Email:</strong> ${email}</li>
                     <li><strong>Message:</strong> ${message}</li>
