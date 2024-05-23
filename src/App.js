@@ -7,6 +7,7 @@ import "./styles/body.css";
 import Cartes from './components/cartes';
 import Realisation from './components/realisation';
 import Partenaire from './components/partenaire';
+import Footer from './components/footer';
 
 
 
@@ -24,6 +25,7 @@ function App() {
            <Cartes />
            <Realisation />
            <Partenaire />
+           <Footer />
 
         </div>
     );
