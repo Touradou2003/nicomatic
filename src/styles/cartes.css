@@ -1,70 +1,118 @@
 
 .aussi{
-display: flex;
-width: 321px;
+width: 606px;
 height: 44px;
-left: calc(50% - 321px/2 - 0.5px);
-top: 145px;
+top: 117px;
+left: 267px;
+gap: 0px;
+opacity: 0px;
 
-font-family: 'extra-bold';
-font-style: normal;
-font-weight: 800;
+
+font-family: Inter;
 font-size: 36px;
-line-height: 44px;
-padding-left: 40%;
+font-weight: 800;
+line-height: 43.57px;
+text-align: justified;
+padding-left: 30%;
+color: rgba(47, 53, 59, 1);
 padding-top: 5%;
-color: #2F353B;
+}
+
+#fond{
+    position: absolute;
+    
+
+}
+
+
+
+
+.point{
+    position: relative;
+    padding-left: 95%;
+    bottom: 400px;
+    right: 0%;
+    width: 280px;
+}
+
+#tout{
+    position: relative;
+    top: 0%;
+    padding-top: 7%;
+    padding-right: 7%;
+
+}
+
+.cercle{
+position: relative;
+width: 650px;
+height: 650px;
+top: 70px;
+left: 245px;
+gap: 0px;
+border: 20px 0px 0px 0px;
+opacity: 0px;
+justify-content: center;
+padding-left: 30%;
 }
 
 
 #site1{
 background-color: rgba(255, 255, 255, 1);
 display: flex;
-width: 509px;
+width: 350px;
 height: 278px;
 left: 582px;
 top: 356px;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
+background:  rgba(232, 242, 250, 1);
 }
 
 #site2{
 background-color: rgba(255, 255, 255, 1);
 display: flex;
-width: 509px;
+width: 350px;
 height: 278px;
 left: 582px;
 top: 356px;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+background:  rgba(232, 242, 250, 1);
 }
 
 .site12{
     display: flex;
+    position: relative;
     flex-direction: row;
     padding-left: 250px;
     padding-right:10%;
     justify-content: space-evenly;
+    top: 0%;
+    
 
 }
 
 #site3{
     background-color: rgba(255, 255, 255, 1);
     display: flex;
-    width: 509px;
+    width: 350px;
     height: 278px;
     left: 582px;
     top: 356px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background:  rgba(232, 242, 250, 1);
 }
 
 #site4{
     background-color: rgba(255, 255, 255, 1);
     display: flex;
-    width: 509px;
+    width: 350px;
     height: 278px;
     left: 582px;
     top: 356px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background:  rgba(232, 242, 250, 1);
+
+
 }
 
 .site34{
@@ -74,6 +122,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     padding-right:10%;
     padding-top:2%;
     justify-content: space-evenly;
+    padding-top: 7%;
 }
 
 #consulting{
@@ -112,8 +161,7 @@ top: 368px;
 }
 
 .titreConsulting{
-
-color: #119DD9;  
+color: #119DD9; 
 }
 .titreFactory{
     color: #119DD9;

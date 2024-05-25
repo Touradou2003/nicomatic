@@ -1,4 +1,6 @@
 import "../styles/cartes.css";
+import Cercle from "../assets/cercle.png";
+import Point from "../assets/ecriture.png";
 import studio from "../assets/studio.png";
 import consulting from "../assets/consulting.png";
 import factory from "../assets/factory.png";
@@ -12,10 +14,21 @@ export default function Cartes(){
         <section id="cartes">
 
         <h1 class="aussi">
-                G-NI'S c'est aussi,
+                NICOMATIC-SENEGAL c'est aussi,
         </h1>
+        <section id="ensemble"> 
 
-            <div class="site12">
+        <section id="fond">
+
+        <div class="cercle">
+            <img src={Cercle} alt="cercle"/>
+        </div>
+        <div>
+            <img class="point" src={Point} alt="point"/>
+        </div>
+        </section>
+        <section id="tout">
+        <div class="site12">
                 <div id="site1">
                     <img id="consulting" src={consulting} alt="consulting" />
                     <h1 class="titreConsulting">Consulting</h1>
@@ -39,6 +52,10 @@ export default function Cartes(){
 
                 </div>
             </div>
+
+            </section>
+        </section>
+           
 
 
         </section>

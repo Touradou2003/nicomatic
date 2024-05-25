@@ -1,4 +1,4 @@
-import sourire from "../assets/sourire.png"
+import sourire from "../assets/sourire2.png"
 import "../styles/onceUponATime.css"
 
 
