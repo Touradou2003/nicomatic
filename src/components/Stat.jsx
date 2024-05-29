@@ -1,14 +1,13 @@
 import zoneImage from "../assets/zoneImage.png"
-import "../styles/zone.css"
 
 
-export default function Zone()
+export default function Stat()
 {
     return(
         <>
             <section id="zoneSection">
-                <div class="bande">
-                    <img src={zoneImage} alt="bandeBleue" />
+                <div class="w-screen bg-bleu">
+                    <img src={zoneImage} alt="bandeBleue" className="mx-auto"/>
                 </div>
             </section>
 

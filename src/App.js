@@ -1,33 +1,14 @@
-import Bienvenue from './components/bienvenue';
-import Header from './components/header';
-import OnceUponATime from './components/onceUponATime';
-import Ainsi from './components/ainsi';
-import Zone from './components/zone'; 
-import "./styles/body.css";
-import Cartes from './components/cartes';
-import Realisation from './components/realisation';
-import Partenaire from './components/partenaire';
-import Footer from './components/footer';
-
-
-
-import React from 'react';
-;
-
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Accueil from "./pages/Accueil";
+import About from "./pages/About";
 function App() {
     return (
-        <div class="body">
-            <Header />        
-           <Bienvenue />
-           <OnceUponATime />
-           <Ainsi />  
-           <Zone />  
-           <Cartes />
-           <Realisation />
-           <Partenaire />
-           <Footer />
-
-        </div>
+        <Router>
+            <Routes>
+                <Route index element={<Accueil/>}/>
+                <Route path="/about" element={<About/>}/>
+            </Routes>
+        </Router>
     );
 }
 
